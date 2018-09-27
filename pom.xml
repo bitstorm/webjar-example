@@ -84,7 +84,7 @@
 		<dependency>
 			<groupId>org.webjars.npm</groupId>
 			<artifactId>startbootstrap-sb-admin</artifactId>
-			<version>3.3.7</version>
+			<version>5.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>de.agilecoders.wicket.webjars</groupId>

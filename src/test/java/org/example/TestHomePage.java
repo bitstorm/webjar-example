@@ -1,7 +1,6 @@
 package org.example;
 
 import org.apache.wicket.util.tester.WicketTester;
-import org.example.HomePage;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,9 +21,9 @@ public class TestHomePage
 	public void homepageRendersSuccessfully()
 	{
 		//start and render the test page
-		tester.startPage(HomePage.class);
+    tester.startPage(HomePage.class);
 
 		//assert rendered page class
-		tester.assertRenderedPage(HomePage.class);
+    tester.assertRenderedPage(HomePage.class);
 	}
 }
