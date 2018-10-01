@@ -7,23 +7,20 @@ import org.junit.Test;
 /**
  * Simple test using the WicketTester
  */
-public class TestHomePage
-{
-	private WicketTester tester;
+public class TestHomePage {
+  private WicketTester tester;
 
-	@Before
-	public void setUp()
-	{
-	//	tester = new WicketTester(new WicketConfig());
-	}
+  @Before
+  public void setUp() {
+    tester = new WicketTester();
+  }
 
-	@Test
-	public void homepageRendersSuccessfully()
-	{
-		//start and render the test page
+  @Test
+  public void homepageRendersSuccessfully() {
+    // start and render the test page
     tester.startPage(HomePage.class);
 
-		//assert rendered page class
+    // assert rendered page class
     tester.assertRenderedPage(HomePage.class);
-	}
+  }
 }
